@@ -18,3 +18,9 @@ And compile:
 
 	make
 
+
+-> Target packages                                                                                       │
+  │       -> Hardware handling                                                                                   │
+  │         -> Firmware                                                                                          │
+  │           -> linux-firmware (BR2_PACKAGE_LINUX_FIRMWARE [=y])                                                │
+  │ (1)         -> WiFi firmware
